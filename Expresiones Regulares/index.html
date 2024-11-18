@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Validación de Formulario</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Formulario con Validaciones</h4>
+    <form id="validationForm">
+      <!-- Correo Electrónico -->
+      <input class="controls" type="text" id="email" placeholder="Ingrese su Correo">
+      <!-- Número de Teléfono -->
+      <input class="controls" type="text" id="telefono" placeholder="Ingrese su Teléfono (123-456-7890)">
+      <!-- URL -->
+      <input class="controls" type="text" id="url" placeholder="Ingrese su Página Web (https://ejemplo.com)">
+      <!-- Código Postal -->
+      <input class="controls" type="text" id="codigoPostal" placeholder="Ingrese su Código Postal">
+      <!-- Dirección IP -->
+      <input class="controls" type="text" id="ip" placeholder="Ingrese su Dirección IP (192.168.0.1)">
+      <!-- Botón de envío -->
+      <input class="botons" type="submit" value="Validar Datos">
+    </form>
+    <p id="errorMessage" style="color: red; display: none;">Por favor, corrija los errores marcados.</p>
+  </section>
+  <script src="validation.js"></script>
+</body>
+</html>
