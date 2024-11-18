@@ -76,8 +76,3 @@ El código utiliza un estilo moderno para la validación:
 Si tienes ideas para mejorar este código, ¡haz un **fork** y contribuye! 🚀
 
 ---
-
-#### **¡Gracias por usar `validation.js`!** 💙
-```
-
-Este formato con HTML, emojis y colores ayuda a hacer el archivo `README` más atractivo y fácil de entender, al mismo tiempo que explica el funcionamiento del código de manera clara.
